@@ -1,0 +1,10 @@
+body {
+    font-size: 16px;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 24px; /* Adjust the font size for mobile devices */
+    }
+}

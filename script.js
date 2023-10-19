@@ -1,3 +1,6 @@
+document.getElementById("numPlayers").defaultValue = "2";
+document.getElementById("numRounds").defaultValue = "3";
+
 document.addEventListener("DOMContentLoaded", function () {
     const startGameButton = document.getElementById("startGame");
     const gameResults = document.getElementById("gameResults");
@@ -47,3 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.getElementById("startGame").onclick = function () {
+    location.href = "round.html"
+};
